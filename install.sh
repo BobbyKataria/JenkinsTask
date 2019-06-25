@@ -13,7 +13,7 @@ sudo usermod --shell /bin/bash jenkins
 sudo su - jenkins -c "wget http://updates.jenkins-ci.org/latest/jenkins.war"
 
 # copy jenkins-service file to systemd
-sudo cp ./jenkins.service /etc/systemd/system
+sudo cp ./jenkin.service /etc/systemd/system
 
 # new service added, systemd needs to be reloaded
 sudo systemctl daemon-reload
